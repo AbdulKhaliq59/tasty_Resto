@@ -141,7 +141,11 @@ img{
   display: grid;
   gap: 1.5rem;
 }
-
+.view__button
+{
+  padding-top:20px ;
+  display: flex;
+}
 .l-header{
   width: 100%;
   position: fixed;
@@ -480,6 +484,10 @@ img{
   }
   .contact__button{
     justify-self: center;
+  }
+  .view__button
+  {
+    justify-content: center;
   }
 }
 
