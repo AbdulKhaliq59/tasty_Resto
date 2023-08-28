@@ -1,3 +1,7 @@
+<?php
+require('./connection.php')
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,7 +17,7 @@
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Responsive website food</title>
+    <title>Tasty Resto</title>
   </head>
   <body>
     <!--========== SCROLL TOP ==========-->
@@ -44,7 +48,7 @@
               <a href="#contact" class="nav__link">Contact us</a>
             </li>
             <li class="nav__item">
-              <a href="./assets/pages/login.html" class="nav__link">Login</a>
+              <a href="./assets/pages/login.php" class="nav__link">Login</a>
             </li>
 
             <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
@@ -162,6 +166,10 @@
             ></a>
           </div>
         </div>
+        <div class="view__button">
+          <a href="./assets/pages/viewMore.php" class="button">View more</a>
+        </div>
+       
       </section>
 
       <!--===== APP =======-->
@@ -249,7 +257,7 @@
         <div class="footer__content">
           <h3 class="footer__title">Adress</h3>
           <ul>
-            <li>Lima - Peru</li>
+            <li>Kigali - Rwanda</li>
             <li>Jr Union #999</li>
             <li>999 - 888 - 777</li>
             <li>tastyfood@email.com</li>
@@ -257,7 +265,7 @@
         </div>
       </div>
 
-      <p class="footer__copy">&#169; 2020 Bedimcode. All right reserved</p>
+      <p class="footer__copy">&#169; 2023 Tasty Resto. All right reserved</p>
     </footer>
 
     <!--========== SCROLL REVEAL ==========-->
